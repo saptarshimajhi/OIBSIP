@@ -1,0 +1,42 @@
+/* navbar */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul{
+    flex-direction: column;
+}
+#navbar .item{
+    font-size: 10px;
+    margin: 2px;
+}
+/* home */
+#home .h-primary{
+    font-size: 15px;
+    padding: 2px;
+}
+
+.hc .item, .hc .btn{
+    font-size: 10px;
+}
+
+#home{
+    padding: 0px 10px;
+    justify-content: flex-end;
+}
+
+/* about */
+.about-container{
+    flex-direction: column;
+}
+
+
+/* menu */
+.menulist{
+    flex-direction: column;
+}
+
+/* contact */
+
+
+/* footer */

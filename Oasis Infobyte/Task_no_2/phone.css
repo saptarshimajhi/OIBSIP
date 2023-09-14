@@ -1,0 +1,95 @@
+nav .logo{
+    font-size: 20px;
+}
+nav ul li{
+    font-size: 15px;
+}
+
+@media (max-width:850px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }   
+    nav .logo{
+        font-size: 35px;
+    }
+}
+@media (max-width:350px) {
+   
+    nav .logo{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }   
+}
+
+/* home */
+@media (max-width:900px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+    }   
+}
+
+@media (max-width:600px) {
+.item1 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 170px;
+     border: 20px solid black;
+  }
+  .item2{
+    font-size: 20px;
+  }
+  .item3{
+    font-size: 20px;
+    padding: 4px 4px;
+    width: 150px;
+  }
+}
+
+/* about */
+
+@media (max-width:900px) {
+    #about .introbox {
+      font-size: 15px;
+      width: 300px;
+      height: fit-content;
+      padding: 15px;
+    }   
+    #about{
+        height: 1000px;
+    }
+}
+
+/* skill */
+
+@media (max-width:750px) {
+    .board{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }   
+    #skill{
+        height: 1300px;
+    }
+}
+
+/* projects */
+@media (max-width:750px) {
+    .board{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }   
+    #project{
+        height: 1300px;
+    }
+}
